@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ClassMetotDemo
 {
@@ -8,7 +6,7 @@ namespace ClassMetotDemo
 	{
 		public void Ekle(Musteri musteri)
 		{
-			Console.WriteLine(musteri.Ad+" "+musteri.Soyad+" isimli müşteri sisteme eklenmiştir.");
+			Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " isimli müşteri sisteme eklenmiştir.");
 		}
 
 		public void Sil(Musteri musteri)
